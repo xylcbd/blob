@@ -10,8 +10,8 @@ menu:
   archives: /archives/ || fa fa-archive
 
 favicon:
-  small: /favicon.ico
-  medium: /favicon.ico
+  small: /icon.png
+  medium: /icon.png
   apple_touch_icon: /images/apple-touch-icon-next.png
   safari_pinned_tab: /images/logo.svg
 
@@ -19,7 +19,8 @@ sidebar:
   display: hide
 
 avatar:
-  url: /favicon.ico
+  url: /icon.png
+  rounded: true
 
 motion:
   enable: false
