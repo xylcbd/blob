@@ -21,6 +21,9 @@ sidebar:
 avatar:
   url: /favicon.ico
 
+motion:
+  enable: false
+  
 social:
   Github: https://github.com/xylcbd
   知乎: https://www.zhihu.com/people/xing-ye-luo-chen

@@ -12,4 +12,4 @@ bomin
 - - -
 
 <img src="qrcode.jpg" width="200px" height="200px">
-<p align="center">欢迎关注微信公众号</p>
+<p align="center">欢迎在本站留言！欢迎关注微信公众号！</p>
