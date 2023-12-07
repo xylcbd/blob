@@ -1,0 +1,67 @@
+scheme: Mist
+
+darkmode: true
+
+menu:
+  home: / || fa fa-home
+  about: /about/ || fa fa-user
+  tags: /tags/ || fa fa-tags
+  categories: /categories/ || fa fa-th
+  archives: /archives/ || fa fa-archive
+
+favicon:
+  small: /favicon.ico
+  medium: /favicon.ico
+  apple_touch_icon: /images/apple-touch-icon-next.png
+  safari_pinned_tab: /images/logo.svg
+
+sidebar:
+  display: hide
+
+avatar:
+  url: /favicon.ico
+
+social:
+  Github: https://github.com/xylcbd
+  知乎: https://www.zhihu.com/people/xing-ye-luo-chen
+
+github_banner:
+  enable: true
+  permalink: https://github.com/xylcbd
+
+baidu_analytics: 23a58b060800f89fe2c9907f73bc0fdf
+
+codeblock:
+  # Code Highlight theme
+  # All available themes: https://theme-next.js.org/highlight/
+  theme:
+    light: atom-one-dark
+    dark: atom-one-dark
+  prism:
+    light: prism
+    dark: prism-dark
+  # Add copy button on codeblock
+  copy_button:
+    enable: true
+    # Available values: default | flat | mac
+    style:
+  # Fold code block
+  fold:
+    enable: true
+    height: 800
+    
+# Waline
+# For more information: https://waline.js.org, https://github.com/walinejs/waline
+waline:
+  enable: true #是否开启
+  serverURL: my-vercel-xylcbds-projects.vercel.app # Waline #服务端地址
+  placeholder:  # 评论框的默认文字
+  avatar: mm # 头像风格
+  meta: [nick, mail, link] # 自定义评论框上面的三个输入框的内容
+  pageSize: 10 # 评论数量多少时显示分页
+  lang: zh-cn # 语言, 可选值: en, zh-cn
+  # Warning: 不要同时启用 `waline.visitor` 以及 `leancloud_visitors`.
+  visitor: true # 文章阅读统计
+  comment_count: true # 如果为 false , 评论数量只会在当前评论页面显示, 主页则不显示
+  requiredFields: [] # 设置用户评论时必填的信息，[nick,mail]: [nick] | [nick, mail]
+  libUrl: # Set custom library cdn url
