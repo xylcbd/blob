@@ -16,7 +16,8 @@ favicon:
   safari_pinned_tab: /images/logo.svg
 
 sidebar:
-  display: hide
+  display: always # hide or always
+  position: left
 
 avatar:
   url: /icon.png
